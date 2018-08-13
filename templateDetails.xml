@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>mgaon.by</name>
+    <creationDate>2015-02-25</creationDate>
+    <author>Ilya Panysh</author>
+    <authorEmail>pan017@yandex.by</authorEmail>
+  <authorUrl>http://www.vk.com/pan017</authorUrl>
+    <copyright>© 2014 Pixel Cook Laboratory. All Rights Reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.0</version>
+    <description>TPL_MGAON_XML_DESCRIPTION</description>
+
+    <files>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+
+  <positions>
+    <position>search</position>
+    <position>menu</position>
+    <position>leftmenu</position>
+	<position>leftsubmenu</position>
+    <position>rightsubmenu</position>
+    <position>additionalcontent</position>
+	<position>jivo</position>
+</positions>
+
+    <languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_mgaon.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_mgaon.sys.ini</language>
+    </languages>
+</extension>

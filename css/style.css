@@ -1,0 +1,402 @@
+.leftmenuitem > a{
+  font-weight: bold;
+}
+.contact-centerul > li{
+  margin-top: 10px;
+}
+.contact-centerul > li > img{
+  width:40px; 
+  position:absolute;
+}
+.contact-centerul > li > div{
+  margin-left: 60px;
+}
+ul .nav > menuleft > a{
+  color:#eeeeee;
+}
+.mainsubmenu{
+  width:100%;
+  background-color: #336fb7; 
+  color:#eeeeee; 
+  //font-family: Comic Sans MS, Comic Sans, cursive; 
+  font-size: 13pt;
+}
+.mainsubmenu > td > li > a{
+  color:#eeeeee;
+}
+ul.menu > li:hover > ul.nav-child {
+    display: block;
+}
+ul.nav-child{  
+  left: -10px;
+  margin:0px;
+  display: none;
+  z-index:3;
+  position: absolute;
+  color:white;
+  top:32px;
+  background-color: #336fb7;
+  text-align:center;
+  
+}
+.main-navigation ul > ul.nav-child{
+  margin:0px;
+}
+ul.nav-child > a{
+  padding:0px;
+  
+}
+
+ul > li: hover{
+  background-color:#ccc;
+  font-weight: bold;
+}
+ul.nav-child > li{
+  padding: 0px 30px;
+  text-align:center;
+  min-width:230px;
+// min-height:50px;
+  vertical-align:middle;
+  border-top:solid;
+  border-top-color:#ccc;
+  margin-right: 0px;
+}
+ul.nav-child > li > a{
+    text-decoration:none;
+  vertical-align:middle;
+}
+ul.nav-child > li:hover{  
+  color: #336fb7;
+  background-color:#ccc; 
+}
+ul.nav-child > li:hover > a{  
+  color: #336fb7;
+  //background-color:#ccc; 
+}
+.maincontent a{
+  color: black;
+}
+.nav-child > ul{
+  display:none;
+}
+html{
+  background-color: #eef6fc ;
+  min-width: 600px;
+  font-family: Arial;  
+  font-size:13pt;
+}
+ul .nav .menuright{
+
+}
+h2{
+  margin-top:0px;
+}
+.home-content{
+  font-size: 13pt; 
+  
+}
+.page-header{
+  margin-top:0px;
+}
+.leftmenu{
+   // background-color: thistle ;
+   background-color: #336fb7;
+    height: 100%; 
+    width: 90%; 
+    text-align: center;
+    margin-left: 10%;
+   
+}
+
+.leftmenuitem{
+    float: inherit;
+    background-color: #b12b30;
+ // background-color: darkseagreen;
+    width: 110%;
+    margin-left: -5%;
+    height: 12%;
+   // border: solid;
+   // border-color: navajowhite;
+  //  font-family: Comic Sans MS, Comic Sans, cursive; 
+    font-size: 13pt;
+  border-radius: 10px;
+
+}
+.leftmenuitem > a{
+    color:white;
+}
+.leftmenuitem > a:hover{
+    border-radius: 10px;
+}
+.rightmenu{
+    background-color: #d7f7e9 ;
+    height: 100%; 
+    width: 90%; 
+    text-align: center;
+    margin-right: 10%;
+}
+
+.rightmenuitem{
+    background-color: #d7f7e9 ;
+    height: 100%; 
+    width: 90%; 
+    text-align: center;
+    margin-right: 10%;
+}
+body {
+    margin: 0;
+    border-top: 5px solid #7e7e7e;
+    background: #f8f8f8;
+    color: gray;
+    font-family: Arial;  
+  	min-width:1200px;
+}
+a {
+    color: #525252;
+}
+
+img {
+    border: 0;
+    width:70%;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputbox {
+    padding: 0 10px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    color: #b2b2b2;
+    vertical-align: top;
+
+}
+
+.button {
+    height: 32px;
+    border: none;
+    background-color: #29c5e6;
+    color: #fff;
+  //  font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+
+.image {
+    outline: 1px solid #c9c9c9;
+    border: 1px solid #fff;
+}
+
+figure img {
+    display: block;
+}
+
+header{
+  position:relative;
+}
+
+
+aside {
+    float: left;
+    width: 250px;
+}
+
+aside + .item-page {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+
+footer {
+    clear: both;
+    background: #336fb7;
+    color: #dbdbdb;
+    font-size: 11px;
+}
+
+
+.main-navigation {
+font-weight: bold;
+  //vertical-align:middle;
+//  display: block;
+ // position: relative; 
+//	text-align: center;
+}
+
+.main-navigation ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 10px; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  text-align: center;
+}
+.main-navigation a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  //background-color:bisque;
+  color:white;
+  //font-family: Comic Sans MS, Comic Sans, cursive; 
+  font-size: 13pt;
+}
+.main-navigation a:hover {
+  font-weight: bold;
+}
+.main-navigation li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+
+ 
+}
+.main-navigation li a{
+  //padding: 10px 45px;
+}
+.menu-background{ 
+  //border: 1px;
+  border-color:#336fb7;
+  border: solid;
+  background-color:#336fb7;
+  height:100%;
+  border-radius: 10px 0px 10px 10px;
+}
+div .row .marketing{
+  height: 100%;
+}
+.title-text-normal {
+  text-align: justify; 
+  line-height: 115%; 
+  font-family: Arial;  
+  font-size: 12pt; 
+  color: #000000;
+}
+.date-text-blue {
+  line-height: 115%;
+ // font-family: Arial; 
+  font-size: 12pt; 
+  color: #6190f0;
+  font-style: italic;
+}
+.text-bold {
+  margin: 0cm 0cm 0pt;
+  line-height: normal; 
+  text-align: justify;
+  line-height: 115%;
+  //font-family: Arial; 
+  font-size: 12pt;
+  color: #000000;
+  font-weight:bold;
+}
+.text-normal{
+  margin: 0cm 0cm 0pt;
+  text-align: left;
+  line-height: normal;
+ // font-family: Comic Sans MS, Comic Sans, cursive; 
+  font-size: 15pt;
+  color: #000000;
+}
+.search .maincontent{
+  margin:15px;
+ // font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+.maincontent{
+  
+  margin:15px;
+ // font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+div .pagination {
+  width:500px;
+}
+.pagination ul {
+  list-style: none; /*убираем маркеры списка*/
+  //margin: 10px; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+text-align: center;
+}
+.pagination a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  color:black;
+//  font: 14px 'Oswald', sans-serif;
+}
+.pagination li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+    
+}
+ .pagenav span{
+  text-decoration: underline;
+  color:white;
+}
+a.btn{
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+color: #fff;
+text-align: right;
+font-size: 14px;
+padding: 8px 16px;
+margin: 20px auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+a.btn {
+background-color: #336fb7;
+border: 1px solid rgb( 33, 126, 74 );
+}
+        
+a.btn:hover {
+background-color: #64a5f3;
+}
+
+.inputbut {
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+color: #fff;
+text-align: right;
+font-size: 14px;
+padding: 8px 16px;
+margin: 20px auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+.inputbut {
+background-color: #336fb7;
+border: 1px solid rgb( 33, 126, 74 );
+}
+        
+.inputbut:hover {
+background-color: #64a5f3;
+}
+
+.search{
+  position:absolute;
+  z-index:1;
+  float:right;
+  left:75%;
+  top:10px;
+ // background: #F9F0DA;
+}
+
+label #jform_contact_name-lbl .hasTooltip .required{
+  text-align:left;
+}
